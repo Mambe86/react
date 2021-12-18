@@ -50,7 +50,8 @@ class EmployersAddForm extends Component  {
                         onChange={this.onChangeValue} />    
                     
                     <button type="submit"
-                        className="btn btn-outline-light">Добавить</button>
+                        className="btn btn-outline-light"
+                        onClick = {this.onSubmit}>Добавить</button>
                 </form>
             </div>
         )
